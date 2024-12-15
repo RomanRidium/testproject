@@ -1,0 +1,26 @@
+.dropdownContainer {
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdownList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdownListElement {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid black;
+}

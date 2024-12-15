@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.mainEditorContainer {
+    width: 70%;
+    height: 60%;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.mainOutputContainer {
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+}
+
+.mainLoading {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .mainEditorContainer {
+        width: 80%;
+        height: 50%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainEditorContainer {
+        width: 100%;
+        height: 100%;
+    }
+}
+
